@@ -1,0 +1,7 @@
+mutation LOGIN_MUTATION($email: String!, $password: String!) {
+  login(email: $email, password: $password) {
+    id
+    name
+    email
+  }
+}

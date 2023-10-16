@@ -1,0 +1,7 @@
+query USER_QUERY {
+  user {
+    id
+    name
+    email
+  }
+}
